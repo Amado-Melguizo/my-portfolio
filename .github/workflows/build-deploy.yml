@@ -24,7 +24,7 @@ jobs:
           npm install
           npm run-script deploy
       - name: Deploy
-        uses: amado-melguizo/github-pages-deploy-action@releases/v3
+        uses: amado-melguizo/my-portfolio@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
