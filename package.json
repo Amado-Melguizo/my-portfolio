@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng b --prod --base-href https://amado.melguizo.github.io/portfolio/ && npx ngh --dir=dist/my-portfolio"
+    "deploy":"ng build --prod --base-href=/my-portfolio/"
   },
   "private": true,
   "dependencies": {
