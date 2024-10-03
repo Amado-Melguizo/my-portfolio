@@ -28,9 +28,9 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      # Añadir esta línea para establecer la variable de entorno NODE_OPTIONS
       - name: Set NODE_OPTIONS for OpenSSL compatibility
         run: echo "NODE_OPTIONS=--openssl-legacy-provider" >> $GITHUB_ENV
-        # Esto añade la variable de entorno NODE_OPTIONS para que el error de OpenSSL no ocurra
 
       - name: Build Project
         run: npm run deploy
