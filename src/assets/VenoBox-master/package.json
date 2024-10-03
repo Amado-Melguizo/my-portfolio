@@ -7,7 +7,8 @@
     "venobox/venobox.min.css"
   ],
   "dependencies": {
-    "jquery": ">=1.7.0"
+    "jquery": ">=1.7.0",
+    "venobox": "file:"
   },
   "repository": {
     "type": "git",
